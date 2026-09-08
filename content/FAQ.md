@@ -6,8 +6,8 @@ description: "Frequently asked questions and their solutions."
 > *There is an alternate FAQ available at https://smoo.it/#/faq*
 
 ::dropdown{title="What are the controls?"}
-- **Enable/Disable Gamemode:** :s-icon{name="l"} + :s-icon{name="left"}
 - **¹ Open the menu:** :s-icon{name="zl"} + :s-icon{name="a"} / :s-icon{name="b"}
+- **Enable/Disable Gamemode:** :s-icon{name="l"} + :s-icon{name="left"}
 - **Enable/Disable background music:** :s-icon{name="l"} + :s-icon{name="up"}
 - **Open the debug menu:** :s-icon{name="zr"} + :s-icon{name="up"}
     - **Next page:** :s-icon{name="zr"} + :s-icon{name="right"}
@@ -32,8 +32,8 @@ description: "Frequently asked questions and their solutions."
 ::::
 
 ::::dropdown{title="Freeze Tag Controls "}
-- **Switch roles between:** :s-icon{name="runner"} ⇆ :s-icon{name="chaser"}: :s-icon{name="up"}
-- **As** :s-icon{name="runner"} **Reset score:** :s-icon{name="l"} + :s-icon{name="down"}
+- **Switch roles between:** :s-icon{name="FreezeTag-runner"} ⇆ :s-icon{name="FreezeTag-chaser"}: :s-icon{name="up"}
+- **As** :s-icon{name="FreezeTag-runner"} **Reset score:** :s-icon{name="l"} + :s-icon{name="down"}
 - **¹ Host: Control the Timer** :s-icon{name="clock"}
     - Select `Online Server Settings`
     - Select `Gamemode Config`
@@ -87,8 +87,8 @@ which include cords from the in-game map or sending a cutout of a screenshot.
 ::::
 
 ::::dropdown{title="Freeze Tag"}
-- Freeze Tag is more skill-based as players are split into :s-icon{name="chaser"}**Chasers** & :s-icon{name="runner"}**Runners**. As the host can choose teams via manually or randomize them (usually the [wheel](https://wheelofnames.com/)). :s-icon{name="chaser"}**Chasers** have an arrow above their head so they know where a nearby :s-icon{name="runner"}**Runner(s)** is.
-- If all :s-icon{name="runner"}**Runners** are caught, the :s-icon{name="chaser"}**Chasers** score a wipeout bonus that is 20 points each.
+- Freeze Tag is more skill-based as players are split into :s-icon{name="FreezeTag-chaser"}**Chasers** & :s-icon{name="FreezeTag-runner"}**Runners**. As the host can choose teams via manually or randomize them (usually the [wheel](https://wheelofnames.com/)). :s-icon{name="FreezeTag-chaser"}**Chasers** have an arrow above their head so they know where a nearby :s-icon{name="FreezeTag-runner"}**Runner(s)** is.
+- If all :s-icon{name="FreezeTag-runner"}**Runners** are caught, the :s-icon{name="FreezeTag-chaser"}**Chasers** score a wipeout bonus that is 20 points each.
 
 
 ### Places that are forbidden to go
