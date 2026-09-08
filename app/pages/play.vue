@@ -1,7 +1,7 @@
 <script setup lang="ts">
-const { data: page } = await useAsyncData('play', () => {
-  return queryCollection('content').path('/play').first()
-})
+const { data: page } = await useAsyncData("play", () => {
+  return queryCollection("content").path("/play").first();
+});
 </script>
 
 <!--

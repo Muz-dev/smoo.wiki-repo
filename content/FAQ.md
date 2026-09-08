@@ -8,7 +8,7 @@ description: "Frequently asked questions and their solutions."
 ::dropdown{title="What are the controls?"}
 - **Enable/Disable Gamemode:** :s-icon{name="l"} + :s-icon{name="left"}
 - **¹ Open the menu:** :s-icon{name="zl"} + :s-icon{name="a"} / :s-icon{name="b"}
-- **Turn off background music:** :s-icon{name="l"} + :s-icon{name="up"}
+- **Enable/Disable background music:** :s-icon{name="l"} + :s-icon{name="up"}
 - **Open the debug menu:** :s-icon{name="zr"} + :s-icon{name="up"}
     - **Next page:** :s-icon{name="zr"} + :s-icon{name="right"}
     - **Previous page:** :s-icon{name="zr"} + :s-icon{name="left"}
@@ -39,8 +39,8 @@ description: "Frequently asked questions and their solutions."
     - Select `Gamemode Config`
     - Select `Config Host Controls`
     - Set how long the round goes **(usually it's 10 minutes)**
-- **Host: Start the Timer** :s-icon{name="r"} + :s-icon{name="up"}
-- **Host: Stop the Timer** :s-icon{name="r"} + :s-icon{name="down"}
+- **Host: Start the Timer:** :s-icon{name="r"} + :s-icon{name="up"}
+- **Host: Stop the Timer:** :s-icon{name="r"} + :s-icon{name="down"}
 ::::
 
 :::alert{type="info" justify="text-left"}
@@ -53,7 +53,7 @@ description: "Frequently asked questions and their solutions."
 
 ::::dropdown{title="Hide & Seek"}
 - Before the round starts a :s-icon{name="seeker"}**Seeker** will be chosen (usually by spinning a [**wheel**](https://wheelofnames.com/)). Everyone will head to the odyssey and the :s-icon{name="seeker"}**Seeker** will start a one-minute countdown. 
-During that minute all :s-icon{name="hider"}**Hiders** will go to their hiding spots. Once the countdown ends, the :s-icon{name="seeker"} **Seeker** may begin to search. Players are given a one minute grace period after the :s-icon{name="seeker"}**Seeker** start searching. 
+During that minute all :s-icon{name="hider"}**Hiders** will go to their hiding spots. Once the countdown ends, the :s-icon{name="seeker"}**Seeker** may begin to search. Players are given a one minute grace period after the :s-icon{name="seeker"}**Seeker** start searching. 
 If a :s-icon{name="hider"}**Hider** dies while reaching their hiding spot during the grace period, they may return to that same spot. This does not apply if they are getting chased by a :s-icon{name="seeker"}**Seeker**. After the grace period ends, any death counts as being caught.
 
 ## Asking for Hints
@@ -119,7 +119,7 @@ Go to the SMOO menu — see the **controls** section — and there should be opt
 
 
 ::dropdown{title="How can I fix my game crashing?"}
-Try a different version of SMOO such as [Sardines](https://github.com/DaDev123/Super-Mario-Odyssey-Online-EXTENSIONS/releases/tag/Sardines) by [**Amethyst-szs**](https://github.com/Amethyst-szs) or [SMOO+ (unaffiliated)](https://github.com/DaDev123/SMOO-Plus/releases) by [**SecretDev**](https://github.com/DaDev123).
+Make sure that your using the builds provided from the [Play](/Play) section alternatively you should use the Sardines build as it the most stable then SMOO+ & Crafty's offical build.
 
 :::alert{type="warning"}
 Be sure you ***replace SMOO with the new version***. It may not prompt you for a new IP address on launch.

@@ -1,5 +1,5 @@
 import { defineContentConfig, defineCollection } from "@nuxt/content";
-import { z } from 'zod'
+import { z } from "zod";
 
 // Specifies that we want our content files from specifically,
 // and exclusively, the content/ folder. We are using .md files
@@ -11,8 +11,8 @@ export default defineContentConfig({
       type: "page",
       source: "**/*.md",
       schema: z.object({
-        date: z.string()
-      })
+        date: z.string(),
+      }),
     }),
   },
 });

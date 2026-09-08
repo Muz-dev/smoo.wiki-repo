@@ -1,7 +1,7 @@
 <script setup lang="ts">
-const { data: page } = await useAsyncData('compatibility', () => {
-  return queryCollection('content').path('/compatibility').first()
-})
+const { data: page } = await useAsyncData("compatibility", () => {
+  return queryCollection("content").path("/compatibility").first();
+});
 </script>
 
 <!--

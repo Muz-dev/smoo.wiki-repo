@@ -1,7 +1,7 @@
 <script setup lang="ts">
-const { data: page } = await useAsyncData('host', () => {
-    return queryCollection('content').path('/host').first()
-})
+const { data: page } = await useAsyncData("host", () => {
+  return queryCollection("content").path("/host").first();
+});
 
 // the remaining code is NOT in use as of right now, and may never be
 /*
@@ -34,6 +34,6 @@ Reference for this code:
 https://content.nuxt.com/docs/files/markdown#display-markdown
 -->
 <template>
-    <Headline :text="page?.title" />
-    <ContentRenderer :value="page" />
+  <Headline :text="page?.title" />
+  <ContentRenderer :value="page" />
 </template>
