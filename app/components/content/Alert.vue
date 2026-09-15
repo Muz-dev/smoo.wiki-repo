@@ -60,12 +60,5 @@ For larger icon:
 
 <!--
 Original, taken from the Nuxt documentation, https://content.nuxt.com/docs/files/markdown:
-<template>
-    <!-- Give this a bit more padding outside the colored radius
-    <div class="py-6">
-        <div class="text-black p-2 border dark:text-white rounded" :class="alertClass">
-            <slot mdc-unwrap="p" />
-        </div>
-    </div>
-</template>
+The original example was removed from this comment because HTML comments cannot contain other HTML comments.
 -->

@@ -9,7 +9,10 @@ const props = defineProps({
     default: "text-8xl py-8",
   },
   ui: {
-    default: { label: "text-2xl italic text-gray-500 dark:text-gray-300 tracking-wide" },
+    type: Object,
+    default: () => ({
+      label: "text-2xl italic text-gray-500 dark:text-gray-300 tracking-wide",
+    }),
   },
 });
 </script>
