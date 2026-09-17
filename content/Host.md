@@ -21,7 +21,7 @@ x86_64
 x86_64
 ::::::
 :::::
-This server was created by Crafty, Sanae, and RCL (among others). It offers:
+This server was created by Crafty, Sanae, speyejack, and RCL (among others). It offers:
 
 - Discord bot support (some assembly required)
 - Ban support

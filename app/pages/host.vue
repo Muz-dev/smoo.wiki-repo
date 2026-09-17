@@ -1,10 +1,7 @@
 <script setup lang="ts">
-const host = useRoute().params.host
-const { data: page } = await useAsyncData(`${host}`, () => {
-    // Not 100% sure we have to get the first here, but I think
-    // queryCollection returns a list, so we do need to get a single element.
-    return queryCollection('content').path(`/host`).first()
-})
+const { data: page } = await useAsyncData("host", () => {
+  return queryCollection("content").path("/host").first();
+});
 
 // the remaining code is NOT in use as of right now, and may never be
 /*
@@ -37,6 +34,8 @@ Reference for this code:
 https://content.nuxt.com/docs/files/markdown#display-markdown
 -->
 <template>
+  <div>
     <Headline :text="page?.title" />
     <ContentRenderer :value="page" />
+  </div>
 </template>
